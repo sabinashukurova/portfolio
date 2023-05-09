@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Icon from '@/components/Icon'
 import NavBar from '@/components/NavBar'
 import '@/styles/globals.css'
@@ -15,5 +16,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <NavBar/>
       <Component {...pageProps} />
       <Icon />
+      <Footer />
     </main>)
 }
