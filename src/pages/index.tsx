@@ -1,5 +1,4 @@
 import AnimatedText from "@/components/AnimatedText";
-import ImageHome from "@/components/ImageHome";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
@@ -31,15 +30,13 @@ export default function Home() {
                 Resume
                 <BsBoxArrowUpRight className="w-6 ml-1" />
               </Link>
-              <Link href="mailto:shukurova.sebine@gmail.com" target={"_blank"} className="ml-4 text-lg font-medium capitalize text-dark underline">Contact</Link>
             </div>
           </div>
         </div>
       </Layout>
-      <ImageHome />
       <div className="absolute right-8 bottom-8 inline-block w-24">
         <Image 
-          src={lightBulb} alt="Light Bulb" className="w-full h-auto"
+          src={""} alt="Light Bulb" className="w-full h-auto"
         />
       </div>
     </main>
